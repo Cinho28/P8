@@ -17,8 +17,8 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
+    <script src="./assets/maugallery.js" defer></script>
+    <script src="./assets/scripts.js" defer></script>
   </head>
   <body>
     <div class="top-header">
@@ -71,21 +71,21 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg"
+              src="./assets/images/slider/ryoji-iwata.webp"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg"
+              src="./assets/images/slider/nicholas-green.webp"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg"
+              src="./assets/images/slider/edward-cisneros.webp"
               class="d-block w-100"
               alt="..."
             />
@@ -141,47 +141,137 @@
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+            src="./assets/images/gallery/concerts/aaron-paul.webp"
+            srcset="
+              ./assets/images/gallery/concerts/aaron-paul-600.webp   600w,
+              ./assets/images/gallery/concerts/aaron-paul-1000.webp 1000w,
+              ./assets/images/gallery/concerts/aaron-paul.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            alt="Concert Aaron Paul"
+            loading="lazy"
+            width="1920"
+            height="1280"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
+            src="./assets/images/gallery/entreprise/ali-morshedlou.webp"
+            srcset="
+              ./assets/images/gallery/entreprise/ali-morshedlou-600.webp   600w,
+              ./assets/images/gallery/entreprise/ali-morshedlou-1000.webp 1000w,
+              ./assets/images/gallery/entreprise/ali-morshedlou.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            alt="Portrait Ali Morshedlou"
+            loading="lazy"
+            width="1920"
+            height="1280"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
+            src="./assets/images/gallery/entreprise/jason-goodman.webp"
+            srcset="
+              ./assets/images/gallery/entreprise/jason-goodman-600.webp   600w,
+              ./assets/images/gallery/entreprise/jason-goodman-1000.webp 1000w,
+              ./assets/images/gallery/entreprise/jason-goodman.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            loading="lazy"
+            width="1920"
+            height="1280"
+            alt="Portrait Jason Goodman"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
+            src="./assets/images/gallery/mariage/hannah-busing.webp"
+            srcset="
+              ./assets/images/gallery/mariage/hannah-busing-600.webp   600w,
+              ./assets/images/gallery/mariage/hannah-busing-1000.webp 1000w,
+              ./assets/images/gallery/mariage/hannah-busing.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            loading="lazy"
+            width="1920"
+            height="1280"
+            alt="Mariage Hannah Busing"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
+            src="./assets/images/gallery/portraits/ade-tunji.webp"
+            srcset="
+              ./assets/images/gallery/portraits/ade-tunji-600.webp   600w,
+              ./assets/images/gallery/portraits/ade-tunji-1000.webp 1000w,
+              ./assets/images/gallery/portraits/ade-tunji.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            loading="lazy"
+            width="1920"
+            height="1280"
+            alt="Portrait Ade Tunji"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
+            src="./assets/images/gallery/mariage/jakob-owens.webp"
+            srcset="
+              ./assets/images/gallery/mariage/jakob-owens-600.webp   600w,
+              ./assets/images/gallery/mariage/jakob-owens-1000.webp 1000w,
+              ./assets/images/gallery/mariage/jakob-owens.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            loading="lazy"
+            width="1920"
+            height="1280"
+            alt="Mariage Jakob Owens"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
+            src="./assets/images/gallery/portraits/nino-van-prattenburg.webp"
+            srcset="
+              ./assets/images/gallery/portraits/nino-van-prattenburg-600.webp   600w,
+              ./assets/images/gallery/portraits/nino-van-prattenburg-1000.webp 1000w,
+              ./assets/images/gallery/portraits/nino-van-prattenburg.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            loading="lazy"
+            width="1920"
+            height="1280"
+            alt="Portrait Nino Van Prattenburg"
           />
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
+            src="./assets/images/gallery/concerts/austin-neill.webp"
+            srcset="
+              ./assets/images/gallery/concerts/austin-neill-600.webp   600w,
+              ./assets/images/gallery/concerts/austin-neill-1000.webp 1000w,
+              ./assets/images/gallery/concerts/austin-neill.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            loading="lazy"
+            width="1920"
+            height="1280"
+            alt="Concert Austin Neill"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
+            src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp"
+            srcset="
+              ./assets/images/gallery/entreprise/mateus-campos-felipe-600.webp   600w,
+              ./assets/images/gallery/entreprise/mateus-campos-felipe-1000.webp 1000w,
+              ./assets/images/gallery/entreprise/mateus-campos-felipe.webp      1920w
+            "
+            sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+            loading="lazy"
+            width="1920"
+            height="1280"
+            alt="Entreprise Mateus Campos Felipe"
           />
         </div>
       </div>
