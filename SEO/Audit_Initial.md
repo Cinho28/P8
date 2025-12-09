@@ -76,11 +76,16 @@ Cet audit recense les problèmes techniques, sémantiques et de performance iden
 
 ## 📍 6. Contenu : Mots-clés et SEO Local
 
-**Description :** Le contenu textuel est pauvre en mots-clés stratégiques. Le ciblage géographique (Bordeaux) est insuffisant.
+**Description :**
+
+- Le contenu textuel est pauvre en mots-clés stratégiques.
+- Le ciblage géographique (Bordeaux) est insuffisant.
+- Les coordonnées de l'entreprise ne sont pas balisées sémantiquement (absence de balise `<address>`), rendant l'indexation locale moins efficace.
 
 **Recommandations :**
 
 - Enrichir les textes avec un champ lexical pertinent (photographe, shooting, mariage, portrait, Bordeaux, Gironde).
 - Intégrer ces mots-clés naturellement dans les titres et les paragraphes.
+- Baliser les coordonnées (adresse, téléphone) avec la balise HTML5 `<address>` pour renforcer le SEO local.
 
 > **Impact SEO :** Moyen. Permet de se positionner sur les requêtes locales des clients potentiels.
