@@ -19,6 +19,7 @@ body {
 }
 
 .top-header .name {
+  text-align: center;
   font-size: 18px;
   font-weight: 800;
 }
@@ -354,6 +355,7 @@ input[type="submit"] {
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0 0 0 0;
   }
   .top-header .nav li {
@@ -411,11 +413,15 @@ input[type="submit"] {
 .contact-info {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: left;
   position: relative;
   padding: 0px 12px;
 }
 
 .contact-info strong {
+  display: flex;
+  text-align: center;
   font-size: 2rem;
   font-weight: 400;
 }
