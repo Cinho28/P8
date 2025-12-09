@@ -337,6 +337,11 @@ input[type="submit"] {
     right: 0;
     z-index: -1;
   }
+  .contact-info {
+    margin-top: 5em;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @media all and (max-width: 650px) {
@@ -395,8 +400,22 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
   }
+  .contact-info {
+    margin-bottom: 7rem;
+  }
 }
 .carousel-image {
   object-fit: cover;
   height: auto;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0px 12px;
+}
+
+.contact-info strong {
+  font-size: 2rem;
+  font-weight: 400;
 }
